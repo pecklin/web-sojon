@@ -20,9 +20,3 @@ function divide(a, b) {
     return a / b;
 }
 exports.divide = divide;
-/*export default {
-  sum,
-  sub,
-  multiply,
-  divide
-}*/ 

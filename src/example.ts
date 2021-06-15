@@ -14,5 +14,5 @@ log("This is log!!");
 error("This is error!!!");
 
 // export default 방식을 이용한 module import 방법
-import {sum, sub, multiply, divide} from "./calculator"
-console.log(sum(3, 4), sub(4, 3), multiply(2, 2), divide(3, 2));
+import * as calc from "./calculator"
+console.log(calc.sum(3, 4), calc.sub(4, 3), calc.multiply(2, 2), calc.divide(3, 2));
